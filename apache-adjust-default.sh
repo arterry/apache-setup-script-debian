@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install apache2 ssh
+sudo apt-get install apache2 ssh mariadb-server
 
 #change port to 8080
 sudo sed -i 's/80/8080/' /etc/apache2/ports.conf
